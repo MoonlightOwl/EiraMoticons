@@ -30,7 +30,7 @@ import org.lwjgl.opengl.GL11;
 public class ClientProxy extends CommonProxy {
 
 	private static final Logger LOGGER = LogManager.getLogger();
-	private static final String FONT_TEXTURE = "textures/font/ascii.png";
+	private static final String FONT_TEXTURE = "textures/font/ascii_fat.png";
 	public static int MAX_TEXTURE_SIZE;
 	public static EmoticonRenderer renderer;
 

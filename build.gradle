@@ -13,7 +13,7 @@ apply from: 'gradle/scripts/common.gradle'
 
 apply from: 'dependencies.gradle'
 
-def BUILD_NUMBER = System.getenv("BUILD_NUMBER") ?: "0"
+def BUILD_NUMBER = "totoro.fix.2"
 
 sourceCompatibility = targetCompatibility = '1.8'
 compileJava {
